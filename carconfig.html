@@ -8,7 +8,44 @@
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
-
-
+<form action="#">
+  <fieldset>
+    <label>Fahrzeugmodell:
+      <select name="Fahrzeugmodell" size="15">
+        <optgroup label="Autos">
+          <option selected>Volkswagen Golf</option>
+          <option>BMW 3er</option>
+          <option>Audi A4</option>
+          <option>Mercedes-Benz C-Klasse</option>
+          <option>Ford Mustang</option>
+          <option>Tesla Model 3</option>
+          <option>Toyota Corolla</option>
+          <option>Honda Civic</option>
+          <option>Chevrolet Camaro</option>
+          <option>Porsche 911</option>
+          <option>Nissan Leaf</option>
+          <option>Kia Sorento</option>
+          <option>Mazda CX-5</option>
+          <option>Jeep Wrangler</option>
+          <option>Volvo XC90</option>
+        </optgroup>
+      </select>
+    </label>
+  </fieldset>
+  <fieldset>
+    <input type="radio" id="red" name="colour" value="red">
+    <label for="red"> Red</label>
+    <input type="radio" id="blue" name="colour" value="blue">
+    <label for="blue"> Blue</label>
+    <input type="radio" id="green" name="colour" value="green">
+    <label for="green"> Green</label>
+    <input type="radio" id="black" name="colour" value="black">
+    <label for="black"> Black</label>
+  </fieldset>
+  <fieldset>
+  <button type="submit">Absenden</button>
+  <button type="reset">Zurücksetzen</button>
+  </fieldset>
+</form>
 </body>
 </html>
